@@ -19,7 +19,7 @@ export default function PromptPage() {
           className="flex justify-between items-center flex-col gap-y-6"
         >
           <div className="flex flex-col">
-            <label htmlFor="name">name</label>
+            <label htmlFor="name" className="text-sm">name</label>
             <input
               type="text"
               placeholder="John Doe"
@@ -28,7 +28,7 @@ export default function PromptPage() {
             />
           </div>
           <div className="flex flex-col">
-            <label htmlFor="prompt">Prompt</label>
+            <label htmlFor="prompt" className="text-sm">Prompt</label>
             <input
               type="text"
               name="prompt"
@@ -37,8 +37,8 @@ export default function PromptPage() {
             />
           </div>
           <div className="mt-4">
-            <select className="text-[#101010] cursor-pointer px-2 bg-transparent border border-[#101010]">
-              <option disabled selected>
+            <select className="text-[#101010] cursor-pointer px-2 bg-transparent border border-[#101010]" defaultValue="Pick a category">
+              <option disabled >
                 Pick a category
               </option>
               <option className="text-inherit">Art</option>
