@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { SiProbot } from "react-icons/si";
 
 export default function Navbar() {
@@ -10,7 +11,9 @@ export default function Navbar() {
           PromptMania
         </h1>
         </div>
+        <Link href="/login">
         <button className="py-1 px-6 bg-[#101010] font-medium text-[#fff] rounded-md hover:bg-transparent hover:border-2 border-black hover:text-black">Create</button>
+        </Link>
       </div>
     </div>
   );
