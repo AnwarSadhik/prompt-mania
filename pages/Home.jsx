@@ -15,7 +15,7 @@ export default function Home() {
           backgroundPosition: "center",
         }}
       >
-        <div className="flex justify-center items-center h-3/4 py-4 px-3 md:px-20 text-[#101010]">
+        <div className="flex justify-center items-center h-4/5 py-4 px-3 md:px-20 text-[#101010]">
         <Navbar />
           <div className="flex items-center flex-col gap-y-2 md:gap-y-8">
             <div className="flex items-center">
