@@ -20,7 +20,7 @@ export default function Home() {
           <div className="flex items-center flex-col gap-y-2 md:gap-y-8">
             <div className="flex items-center">
               <CgHashtag className="text-3xl md:text-4xl"/>
-              <h1 className="text-xl md:text-4xl lg:text-3xl">Discover & Share your Next Prompt for</h1>
+              <h1 className="text-xl md:text-4xl">Discover & Share your Next Prompt for</h1>
             </div>
             <h2 className="text-xl md:text-3xl font-bold">
               <Typewriter
