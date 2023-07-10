@@ -3,13 +3,13 @@ import Navbar from "@/components/Navbar";
 
 export default function PromptPage() {
   return (
-    <section className="text-xl">
+    <section>
       <Navbar />
-      <main className="w-full h-screen flex justify-center items-center bg-white gap-y-16 text-[#101010]">
+      <main className="w-full h-screen flex justify-center items-center bg-white gap-y-16 text-[#101010] text-xl">
         <div className="w-[330px] md:w-[400px] h-[535px] border py-14 px-4 rounded-xl">
           <div className="flex items-center justify-evenly mb-5">
             <p className="text-center text-md">
-              Stay Anonymous <br /> and create a Prompt
+              Stay <span className="font-medium text-[#000]">Anonymous</span> <br /> and create a Prompt
             </p>
             <img
               src="https://d257b89266utxb.cloudfront.net/galaxy/images/avatar/0xb62f4afe8a5152d57b64b4d3b58470c09f41a185-1684143766733443750.png"
@@ -62,7 +62,7 @@ export default function PromptPage() {
             OR SIGNIN WITH
             <hr className="w-3/4 mx-auto" />
             <BsGoogle 
-              size={30}
+              size={24}
               className="cursor-pointer mx-auto mt-4"
             />
           </div>

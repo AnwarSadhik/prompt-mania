@@ -14,7 +14,7 @@ export default function Navbar() {
             </h1>
         </div>
         <Link href="/create">
-          <button className="py-1 px-6 bg-[#101010] font-medium text-[#fff] rounded-md hover:bg-transparent hover:border-2 border-black hover:text-black">
+          <button className="py-[5px] px-7 bg-[#101010] font-medium text-[#fff] rounded-md hover:bg-transparent hover:border-2 border-black hover:text-black">
             Create
           </button>
         </Link>

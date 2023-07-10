@@ -17,8 +17,7 @@ export default function HomePage() {
             objectFit: "contain",
           }}
         />
-        <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit veniam asperiores accusantium quas maiores molestias dicta optio mollitia recusandae ipsam. Reprehenderit illo, fugiat natus illum odit atque facilis rerum ipsam.
+        <div className="h-auto">
         </div>
 
       </div>
