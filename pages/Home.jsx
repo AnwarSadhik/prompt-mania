@@ -19,10 +19,10 @@ export default function Home() {
         <Navbar />
           <div className="flex items-center flex-col gap-y-2 md:gap-y-8">
             <div className="flex items-center">
-              <CgHashtag className="text-2xl md:text-4xl"/>
-              <h1 className="text-xl md:text-4xl ">Discover your Next Prompt for</h1>
+              <CgHashtag className="text-3xl md:text-4xl"/>
+              <h1 className="text-xl md:text-4xl lg:text-3xl">Discover & Share your Next Prompt for</h1>
             </div>
-            <h2 className="text-2xl md:text-3xl font-bold">
+            <h2 className="text-xl md:text-3xl font-bold">
               <Typewriter
                 options={{
                   strings: ["CHATGPT", "DALL-E","BARD","FIREFLY"],
@@ -30,7 +30,7 @@ export default function Home() {
                   loop: true,
                   delay: 100
                 }}
-              />
+                />
             </h2>
           </div>
         <div className="absolute bottom-4 right-1/2 animate-bounce">
