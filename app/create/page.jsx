@@ -1,9 +1,9 @@
-import { AiOutlineGoogle } from "react-icons/ai";
+import { BsGoogle } from "react-icons/bs"
 import Navbar from "@/components/Navbar";
 
 export default function PromptPage() {
   return (
-    <>
+    <section className="text-xl">
       <Navbar />
       <main className="w-full h-screen flex justify-center items-center bg-white gap-y-16 text-[#101010]">
         <div className="w-[330px] md:w-[400px] h-[535px] border py-14 px-4 rounded-xl">
@@ -14,7 +14,7 @@ export default function PromptPage() {
             <img
               src="https://d257b89266utxb.cloudfront.net/galaxy/images/avatar/0xb62f4afe8a5152d57b64b4d3b58470c09f41a185-1684143766733443750.png"
               alt="avatar"
-              className="w-[55px] h-[55px] rounded-full"
+              className="w-[66px] h-[66px] rounded-full"
             />
           </div>
           <form
@@ -58,16 +58,16 @@ export default function PromptPage() {
               Submit
             </button>
           </form>
-          <div className="text-center mt-5">
-            or SignIN with
-            <hr className="w-1/2 mx-auto" />
-            <AiOutlineGoogle
+          <div className="text-center mt-4">
+            OR SIGNIN WITH
+            <hr className="w-3/4 mx-auto" />
+            <BsGoogle 
               size={30}
-              className="cursor-pointer mx-auto mt-2"
+              className="cursor-pointer mx-auto mt-4"
             />
           </div>
         </div>
       </main>
-    </>
+    </section>
   );
 }

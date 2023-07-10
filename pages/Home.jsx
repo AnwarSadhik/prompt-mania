@@ -20,12 +20,12 @@ export default function Home() {
           <div className="flex items-center flex-col gap-y-2 md:gap-y-8">
             <div className="flex items-center">
               <CgHashtag className="text-3xl md:text-4xl"/>
-              <h1 className="text-xl md:text-4xl">Discover & Share your Next Prompt for</h1>
+              <h1 className="text-xl md:text-5xl">Discover & Share your Next Prompt for</h1>
             </div>
-            <h2 className="text-xl md:text-3xl font-bold">
+            <h2 className="text-xl md:text-6xl font-bold">
               <Typewriter
                 options={{
-                  strings: ["CHATGPT", "DALL-E","BARD","FIREFLY"],
+                  strings: ["AI ART", "CODING","DEBUGGING","FUNNIES"],
                   autoStart: true,
                   loop: true,
                   delay: 100
