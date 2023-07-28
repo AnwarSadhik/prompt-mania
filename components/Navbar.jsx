@@ -7,13 +7,13 @@ export default function Navbar() {
       <div className="flex justify-between items-center">
         <div className="flex items-center md:px-8 gap-8">
           <Link href="/">
-            <SiProbot size={40} color="black" className="mb-2" />
+            <SiProbot size={40} color="black" className="mb-3" />
           </Link>
             <h1 className="hidden md:flex text-3xl font-medium text-[#101010]">
               PromptMania
             </h1>
         </div>
-        <Link href="/create">
+        <Link href="create">
           <button className="py-[5px] px-7 bg-[#101010] font-medium text-[#fff] rounded-md hover:bg-transparent hover:border-2 border-black hover:text-black">
             Create
           </button>
